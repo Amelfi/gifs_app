@@ -1,16 +1,11 @@
-export interface Gif {
-    id: string;
-    title: string;
-    url: string;
-    width: number;
-    height: number;
-  }
+import type { Gif } from "../gifs/interfaces/gif.interface";
+
   
   export const mockGifs: Gif[] = [
     {
       id: '1',
       title: "Superman's Cake",
-      url: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVxbHY0dncxMHJlZXRvOTY3MXl5cHp0dWs4aG5iY3d0ZWhlcDM5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0GtVKtagi2GvWuY3vm/giphy.gif',
+      url: "https://media1.giphy.com/media/v1.Y2lkPTg4ZDRiZDVmejRxZmJqbGM2NnM2bXpleXQ5a3c4M2ljMTk4aXFxbWd0bXltZ3g0ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dxld1UBIiGuoh31Fus/giphy.gif",
       width: 300,
       height: 300,
     },

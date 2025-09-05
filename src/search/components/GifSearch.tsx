@@ -21,7 +21,7 @@ export const GifSearch = ({placeholder = 'Buscar', onQuery}: Props) => {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      console.log(query);
+
       onQuery(query)
     }, 700);
   

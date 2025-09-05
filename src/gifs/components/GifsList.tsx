@@ -1,6 +1,7 @@
 
 import '../../mock-data/gifs.mock'
-import type { Gif } from '../../mock-data/gifs.mock'
+import type { Gif } from '../interfaces/gif.interface'
+
 
 type GifsCardProps = {
     gifs: Gif[]
