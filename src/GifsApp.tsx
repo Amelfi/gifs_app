@@ -16,14 +16,11 @@ export const GifsApp = () => {
     setGifList(gifsArray)
   }
 
-   
-  const [previousList, setPreviousList] = useState(['superman']);
+  const [previousList, setPreviousList] = useState<string[]>([]);
 
-        <GifsList gifs={mockGifs}/>
-        const [gifList, setGifList] = useState<Gif[]>([])
+  const [gifList, setGifList] = useState<Gif[]>([])
 
   const handleQuery = async(query:string) => {
-
 
     //quitar espacios y poner en minuscula.
     query = query.toLowerCase().trim();
