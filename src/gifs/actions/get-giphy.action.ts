@@ -6,6 +6,7 @@ export const getGiphy = async(query: string): Promise<Gif[]> =>{
     const response = await giphyApi.get<GiphyResponse>('/search', {
         params:{
             q:query,
+            limit:10
         }
     });
 
